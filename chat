@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vapes Bay</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <h1>Vapes Bay</h1>
+        <nav>
+            <ul>
+                <li><a href="#products">Productos</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="products" class="products-section">
+            <h2>Nuestros Productos</h2>
+            <div id="product-list" class="product-list">
+                <!-- Los productos serán generados dinámicamente -->
+            </div>
+        </section>
+        <section id="cart" class="cart-section">
+            <h2>Carrito de Compras</h2>
+            <div id="cart-items"></div>
+            <div class="cart-summary">
+                <p>Subtotal: <span id="cart-subtotal">$0</span></p>
+                <button id="checkout-btn">Pagar por WhatsApp</button>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2024 Vapes Bay. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
